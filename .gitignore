@@ -1,0 +1,33 @@
+# Credentials: applies at every depth, including sketch-local files and backups.
+secret.h
+secret.h.*
+secrets.h
+.env
+.env.*
+!.env.example
+
+# Toolchains, downloaded libraries, firmware and build caches
+.tools/
+.build/
+.pio/
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.uf2
+compile_commands.json
+
+# Local measurements, logs and IDE/OS state
+logs/
+*.log
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
